@@ -1,4 +1,4 @@
-# Self-supervised-Indoor-Depth-Completion
+# Self-supervised-Depth-Completion
 
 ## Data Preparation
 ```bash
