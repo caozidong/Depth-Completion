@@ -1,5 +1,11 @@
 # Self-supervised-Depth-Completion
 
+## Introduction
+
+Depth sensing is crucial for many computer vision applications. Commodity-level RGB-D cameras are often unable to sense depth in distant, reflective and transparent regions,
+resulting in large missing areas. As the acquisition of depth annotations in missing areas is tedious, we propose a selfsupervised method for the task of completing depth values of missing areas. Specifically, we sample the incomplete raw depth map via an adaptive sampling strategy to generate a more incomplete depth map as the input and use the raw depth map as the training label. To enable the network to propagate long-range depth information to fill large invalid areas, we
+further propose a relative consistency loss during training. Experiments validate the effectiveness of our self-supervised method, which outperforms previous unsupervised methods and even can compete with some supervised methods.
+
 ## Data Preparation
 In this repository, we only train and test on Matterport3D dataset.
 ```bash
