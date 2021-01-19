@@ -27,7 +27,7 @@ In our method, we resize all images to 320x256, including training and testing p
 - undistorted_color_images: RGB images aligned with raw depth images
 - undistorted_depth_images: raw depth images captured with a matterport camera
 
-You need to download  [matterport3D](https://github.com/niessner/Matterport) and follow [yinda](https://github.com/yindaz/DeepCompletionRelease)'s repository to get above data. Training list `./dataloader/mp_test_list_horizontal.txt` and testing list `./dataloader/mp_train_list_noup.txt` are provided by [Yu-Kai](https://github.com/tsunghan-mama/Depth-Completion)'s
+You need to download  [matterport3D](https://github.com/niessner/Matterport) and follow [yinda](https://github.com/yindaz/DeepCompletionRelease)'s repository to get above data. Training list `./dataloader/mp_test_list_horizontal.txt` and testing list `./dataloader/mp_train_list_noup.txt` are provided by [Yu-Kai](https://github.com/tsunghan-mama/Depth-Completion).
 
 ## Environment Setup
 Python 3.5, Pytorch 1.1.0
@@ -42,4 +42,18 @@ Change the parameters in `params.json`, such as dataset_dir, loss and batch-size
 - In testing, the inputs are RGB images and raw depth images(RGB and data in `MatterportDataset`), and the ground truth is the mesh_images(gt in `MatterportDataset`).
 
 We trained about 30 epoches to get the final model.
+
+##Results
+
+The performance of our network is given in the table. Some samples of visualization results are shown in `.\result_show`.
+
+|        |  RMSE |  MAE |  SSIM  | ![](http://latex.codecogs.com/svg.latex?\delta)  | #Params |
+|--------|-------|-------|-------|-------|-------|
+|validation|821.94|227.94|2.47|0.98|364K|
+|selected validation|817.08|224.83|2.48|0.99|364K|
+|test|783.49|226.91|2.35|1.01|364K|
+
+## Authors
+
+Please direct any questions to Zidong Cao at (caozidong1996@stu.xjtu.edu.cn).
 
