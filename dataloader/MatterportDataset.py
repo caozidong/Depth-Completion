@@ -1,3 +1,16 @@
+"""
+This script is modified from the work of Abdelrahman Eldesokey.
+Find more details from https://github.com/abdo-eldesokey/nconv
+"""
+
+########################################
+__author__ = "Abdelrahman Eldesokey"
+__license__ = "GNU GPLv3"
+__version__ = "0.1"
+__maintainer__ = "Abdelrahman Eldesokey"
+__email__ = "abdo.eldesokey@gmail.com"
+########################################
+
 from PIL import Image
 from torch.utils.data import DataLoader, Dataset
 import torch
