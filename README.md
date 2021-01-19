@@ -28,3 +28,11 @@ In our method, we resize all images to 320x256, including training and testing p
 - undistorted_depth_images: raw depth images captured with a matterport camera
 
 You need to download  [matterport3D](https://github.com/niessner/Matterport) and follow [yindaZ](https://github.com/yindaz/DeepCompletionRelease)'s repository to get above data.
+
+## Environment Setup
+Python 3.5, Pytorch 1.1.0
+
+## Training and testing
+After being ready for the dataset, we can begin to train the model. Note that we resize the images with the nearest interpolation. 
+Change the parameters in '''params.json'''
+
