@@ -27,7 +27,7 @@ In our method, we resize all images to 320x256, including training and testing p
 - undistorted_color_images: RGB images aligned with raw depth images
 - undistorted_depth_images: raw depth images captured with a matterport camera
 
-You need to download  [matterport3D](https://github.com/niessner/Matterport) and follow [yinda](https://github.com/yindaz/DeepCompletionRelease)'s repository to get above data. Training list `./dataloader/mp_test_list_horizontal.txt` and testing list `./dataloader/mp_train_list_noup.txt` are provided by Yu-Kai.(https://github.com/tsunghan-mama/Depth-Completion)'s
+You need to download  [matterport3D](https://github.com/niessner/Matterport) and follow [yinda](https://github.com/yindaz/DeepCompletionRelease)'s repository to get above data. Training list `./dataloader/mp_test_list_horizontal.txt` and testing list `./dataloader/mp_train_list_noup.txt` are provided by [Yu-Kai].(https://github.com/tsunghan-mama/Depth-Completion)'s
 
 ## Environment Setup
 Python 3.5, Pytorch 1.1.0
