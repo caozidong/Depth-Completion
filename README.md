@@ -47,7 +47,7 @@ We trained about 30 epoches to get the final model.
 
 The performance of our network is given in the table. Some samples of visualization results are shown in `.\result_show`.
 
-|        |  RMSE |  MAE |  SSIM  | ![](http://latex.codecogs.com/svg.latex?\delta)  | #Params |
+|        |  RMSE |  MAE |  SSIM  | ![1](http://latex.codecogs.com/svg.latex?\delta)  | #Params |
 |--------|-------|-------|-------|-------|-------|
 |validation|821.94|227.94|2.47|0.98|364K|
 |selected validation|817.08|224.83|2.48|0.99|364K|
@@ -55,5 +55,5 @@ The performance of our network is given in the table. Some samples of visualizat
 
 ## Authors
 
-Please direct any questions to Zidong Cao at (caozidong1996@stu.xjtu.edu.cn).
+Please direct ask any questions to Zidong Cao at (caozidong1996@stu.xjtu.edu.cn).
 
