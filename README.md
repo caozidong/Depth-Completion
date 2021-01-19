@@ -48,7 +48,7 @@ We trained about 30 epoches to get the final model.
 The performance of our network is given in the table. Some samples of visualization results are shown in `.\result_show`.
 
 |        |  RMSE |  MAE |  SSIM  |
-|--------|-------|-------|
+|--------|-------|-------|-------|
 |Bilateral|1.978|0.774|0.507|
 |Ours|1.187|0.385|0.736|
 
