@@ -39,7 +39,7 @@ Change the parameters in `params.json`, such as dataset_dir, loss and batch-size
 
 - In training, the inputs are RGB images and sampled depth images(RGB and data_fake in `MatterportDataset`), and the training labels are raw depth images(gt_fake in `MatterportDataset`).
 
-We trained about 30 epoches to get the final model.
-
 - In testing, the inputs are RGB images and raw depth images(RGB and data in `MatterportDataset`), and the ground truth is the mesh_images(gt in `MatterportDataset`).
+
+We trained about 30 epoches to get the final model.
 
