@@ -1,10 +1,15 @@
+"""
+This script is modified from the work of Abdelrahman Eldesokey.
+Find more details from https://github.com/abdo-eldesokey/nconv
+"""
+
 ########################################
-######## depth completion ##############
-__author__ = "Ang Li"
+__author__ = "Abdelrahman Eldesokey"
 __license__ = "GNU GPLv3"
 __version__ = "0.1"
+__maintainer__ = "Abdelrahman Eldesokey"
+__email__ = "abdo.eldesokey@gmail.com"
 ########################################
-
 
 import os
 import sys
