@@ -47,11 +47,10 @@ We trained about 30 epoches to get the final model.
 
 The performance of our network is given in the table. Some samples of visualization results are shown in `.\result_show`.
 
-|        |  RMSE |  MAE |  SSIM  | ![1](http://latex.codecogs.com/svg.latex?\delta)  | #Params |
-|--------|-------|-------|-------|-------|-------|
-|validation|821.94|227.94|2.47|0.98|364K|
-|selected validation|817.08|224.83|2.48|0.99|364K|
-|test|783.49|226.91|2.35|1.01|364K|
+|        |  RMSE |  MAE |  SSIM  |
+|--------|-------|-------|
+|Bilateral|1.978|0.774|0.507|
+|Ours|1.187|0.385|0.736|
 
 ## Authors
 
