@@ -45,9 +45,9 @@ We trained about 30 epoches to get the final model.
 
 ##Results
 
-You can test with the trained model in `.\workspace\exp_msg_matter\checkpoints`.
+You can test with the trained model in `./workspace/exp_msg_matter/checkpoints`.
 
-The performance of our network is given in the table. Some samples of visualization results are shown in `.\result_show`.
+The performance of our network is given in the table. Some samples of visualization results are shown in `./result_show`.
 
 |        |  RMSE |  MAE |  SSIM  |
 |--------|-------|-------|-------|
