@@ -37,9 +37,9 @@ After being ready for the dataset, we can begin to train the model. Note that we
 
 Change the parameters in `params.json`, such as dataset_dir, loss and batch-size.
 
-- In training, the inputs are RGB images and sampled depth images(RGB and data_fake in `MatterportDataset`), and the training labels are raw depth images(gt_fake in `MatterportDataset`).
+- In training, the inputs are RGB images and sampled depth images(RGB and data_fake in `MatterportDataset`), and the training labels are raw depth images(gt_fake in `MatterportDataset`). You can train the model with `python3 run.py`.
 
-- In testing, the inputs are RGB images and raw depth images(RGB and data in `MatterportDataset`), and the ground truth is the mesh_images(gt in `MatterportDataset`).
+- In testing, the inputs are RGB images and raw depth images(RGB and data in `MatterportDataset`), and the ground truth is the mesh_images(gt in `MatterportDataset`). You can test the model with `python3 run_eval.py`.
 
 We trained about 30 epoches to get the final model.
 
