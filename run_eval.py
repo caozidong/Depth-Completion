@@ -39,7 +39,7 @@ cudnn.benchmark = True
 parser = argparse.ArgumentParser()
 parser.add_argument('-mode', action='store', dest='mode', default='eval', help='"test","eval" or "train" mode')
 parser.add_argument('-exp', action='store', dest='exp', default='exp_msg_matter', help='Experiment name as in workspace directory')
-parser.add_argument('-chkpt', action='store', dest='chkpt', default=33, nargs='?', #default=None
+parser.add_argument('-chkpt', action='store', dest='chkpt', default=36, nargs='?', #default=None
                     help='Checkpoint number to load')
 parser.add_argument('-set', action='store', dest='set', default='val', type=str, nargs='?',
                    help='Which set to evaluate on "val", "selval" or "test"')
